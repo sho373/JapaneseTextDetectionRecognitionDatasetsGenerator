@@ -1,0 +1,7 @@
+bing-image-downloader
+numpy
+Pillow
+opencv-python
+matplotlib
+scipy
+split-folders
