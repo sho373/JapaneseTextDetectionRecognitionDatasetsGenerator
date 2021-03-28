@@ -35,7 +35,7 @@ Then run
 put_text.py
 ```
 
-Output will be in resuls/images dir, images of Katakana text and text file representing bounding box and recognized japanese katakana text.
+Output will be in resuls/images dir, scene images with katakana text and text file representing bounding box and Japanese katakana text.
 In config file, you can change settings, for example, angle of text and font scale.
 
 ```python
@@ -64,7 +64,7 @@ scipy
 split-folders
 ```
 
-You also need to create fonts dir and put your font in this dir. Then change name in config file.
+You also need to create fonts dir and put your font in it. Then change font name in config file.
 
 ## Description
 
