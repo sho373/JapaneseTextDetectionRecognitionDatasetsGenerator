@@ -1,6 +1,6 @@
 # JapaneseTextDetectionRecognitionDatasetsGenerator
 
-System that creates images for Japanese scene text detection and recognition projects.
+A system that creates images for Japanese scene text detection and recognition projects.
 
 ## Examples
 
@@ -26,23 +26,23 @@ System that creates images for Japanese scene text detection and recognition pro
 
 ## Usage
 
-If you wannt download background images by using bing-image-downloader, run
+If you want todownload background images by using bing-image-downloader, run
 
 ```python
 icrawler.py
 ```
 
-You can add search query in array 'query = ["sky", "ocean"]'
+You can add search query in an array 'query = ["sky", "ocean"]'
 
-It downloads images from bing and saves them in images dir.
+It downloads images from bing and saves them in "images" dir.
 Then run
 
 ```python
 put_text.py
 ```
 
-Output will be in resuls/images dir, scene images with katakana text and text file representing bounding box and Japanese katakana text.
-In config file, you can change settings, for example, angle of text and font scale.
+The output will be in "results/images" dir, scene images with katakana text and text file representing bounding box and Japanese katakana text.
+In the config file, you can change settings, for example, angle of text and font scale.
 
 ```python
 gen_char_image.py
@@ -70,7 +70,7 @@ scipy
 split-folders
 ```
 
-You also need to create fonts dir and put your font in it. Then change font name in config file.
+You also need to create fonts dir and put your font name in it. Then change the font name in the config file.
 
 ## Description
 
@@ -82,21 +82,21 @@ All collected images from Bing.com are preprocessed into the shape of 512x512. T
 - Rotated angle is between -30 to 30 degrees.
 - Text color will be picked from white, black, red, brown, blue, and light blue, but the chance of white and black will be about twice as high as for other colors.
 
-You can change those value in config file.
+You can change those value in the config file.
 
 The text files are comma-separated files, where each line will correspond to one word in the image and gives its bounding box coordinates and its transcription in the format: top left x, top left y, top right x, top right y, bottom right x, bottom right y, bottom left x, bottom left y, transcription.
 
-If text is rotated, determine the coordinate that fit into the rotated text area.
+If text is rotated, it determines the coordinate that fits into the rotated text area.
 
 ![example7](examples/example7.jpg)
 
 ![example8](examples/example9.jpg)
 
-If you want to generate images with English, edit katakana_words text file and uncomment line 60-64 in put_text
+If you want to generate images in English, edit the katakana_words text file and uncomment line 60-64 in put_text
 
 ![example8](examples/example8.jpg)
 
-Images of katakana characters are also created. These were obtained by using the images and text files that have been created by put_text file. Images size is 48x48x3 (RGB).
+Images of katakana characters are also created. These were obtained by using the images and text files that have been created by the put_text file. Images size is 48x48x3 (RGB).
 
 ## References
 
