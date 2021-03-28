@@ -86,4 +86,4 @@ If you want to generate images with English, edit katakana_words text file and u
 
 ## References
 
-The text is extracted from [便利手帳コム] (http://benritecho.com/katakanakotoba.html) contains 466 Japanese words written in only katakana.
+The text is extracted from [便利手帳コム](http://benritecho.com/katakanakotoba.html) contains 466 Japanese words written in only katakana.
