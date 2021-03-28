@@ -57,16 +57,18 @@ splits images in results/images for train and val.
 ```python
 bing-image-downloader
 numpy
-Pillow
+pillow
 opencv-python
 matplotlib
 scipy
 split-folders
 ```
 
+You also need to create fonts dir and put your font in this dir. Then change name in config file.
+
 ## Description
 
-To collect images, I used the Python library bing-images-downloader, which lets you downloads tons of images directly from Bing Image Search.
+To collect background images, I used the Python library bing-images-downloader, which lets you downloads tons of images directly from Bing Image Search.
 All collected images from Bing.com are preprocessed into the shape of 512x512. Then one to three words will be attached per photo. This value is random, and words are picked from the prepared 466 terms list. In the process of image generation, the following values are randomly determined.
 
 - Font scale is between 30 to 80.
