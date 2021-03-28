@@ -9,10 +9,16 @@ System that creates images for Japanese scene text detection and recognition pro
 ![example](examples/example1.jpg)
 
 ![example2](examples/example1.PNG)
+
 ![example3](examples/example2.jpg)
+
 ![example4](examples/example2.PNG)
+
 ![example5](examples/example6.jpg)
+
 ![example6](examples/example3.PNG)
+
+![example7](examples/example7.jpg)
 
 ### Dataset for recognition task
 
@@ -85,6 +91,8 @@ The text files are comma-separated files, where each line will correspond to one
 Images of katakana characters are also created. These were obtained by using the images and text files that have been created put_text file. Images size is 48x48x3 (RGB).
 
 If you want to generate images with English, edit katakana_words text file and uncomment line 60-64 in put_text
+
+![example8](examples/example8.jpg)
 
 ## References
 
