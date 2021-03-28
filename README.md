@@ -1,6 +1,6 @@
 # Creat datasets for Japanese text detection/recognition
 
-System that creates images for scene text detection and recognition projects.
+System that creates images for Japanese scene text detection and recognition projects.
 
 ## Examples
 
@@ -79,6 +79,8 @@ You can change those value in config file.
 The text files are comma-separated files, where each line will correspond to one word in the image and gives its bounding box coordinates and its transcription in the format: top left x, top left y, top right x, top right y, bottom right x, bottom right y, bottom left x, bottom left y, transcription.
 
 Images of katakana characters are also created. These were obtained by using the images and text files that have been created put_text file. Images size is 48x48x3 (RGB).
+
+If you want to generate images with English, edit katakana_words text file and uncomment line 60-64 in put_text
 
 ## References
 
