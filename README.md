@@ -1,4 +1,4 @@
-# Creat datasets for Japanese text detection/recognition
+# JapaneseTextDetectionRecognitionDatasetsGenerator
 
 System that creates images for Japanese scene text detection and recognition projects.
 
@@ -11,6 +11,8 @@ System that creates images for Japanese scene text detection and recognition pro
 ![example2](examples/example1.PNG)
 ![example3](examples/example2.jpg)
 ![example4](examples/example2.PNG)
+![example5](examples/example6.jpg)
+![example6](examples/example3.PNG)
 
 ### Dataset for recognition task
 
