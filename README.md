@@ -48,7 +48,7 @@ In config file, you can change settings, for example, angle of text and font sca
 gen_char_image.py
 ```
 
-generates images of katakana characters.
+generates images of katakana characters. With the default settings, about 1600 images of katakana will be created.
 
 And
 

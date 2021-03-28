@@ -190,7 +190,7 @@ def main():
                             else:
                                 cor_list.pop(-1)
                                 is_cor_inside = False
-                                
+
                     image = Image.fromarray(image)
                     
                     draw_rotated_text(image, angle, ((int(tl_text_cor[0])), (int(tl_text_cor[1] - font_scale*0))), words, 
@@ -200,7 +200,7 @@ def main():
 
                     #uncomment if you wanna check coordinate of text
                     #rectangle that fit into the rotated box (text)
-                    cv2.rectangle(image, tl, br, (0, 255, 0), 3)
+                    #cv2.rectangle(image, tl, br, (0, 255, 0), 3)
                     
                     with open('{}/gt_img_{}.txt'.format(results_img_dir,count),'a',encoding='utf8') as f:
                         f.write("{},{},{},{},{},{},{},{},{}\n".format(tl[0],tl[1],tr[0],tr[1],br[0],br[1],bl[0],bl[1],words))
