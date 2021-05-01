@@ -101,3 +101,4 @@ Images of katakana characters are also created. These were obtained by using the
 ## References
 
 The text is extracted from [便利手帳コム](http://benritecho.com/katakanakotoba.html) contains 466 Japanese words written in only katakana.
+rotate_text.py is from post in [Stack Overflow](https://stackoverflow.com/questions/45179820/draw-text-on-an-angle-rotated-in-python)
